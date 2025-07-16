@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Serif&display=swap);
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.nav-link {
+    font-size: 1.1em;
+}
+
+header {
+    font-weight: 700;
+}
+
+.bg-body-tertiary {
+    background-color: rgb(255, 216, 237) !important;
+}
+
+.btn-primary {
+    background-color: rgb(255, 216, 237);
+    color: black;
+    border-color: pink;
+    font-weight: 400;
+    border-radius: 15px;
+}
+
+.btn-primary:hover {
+    background-color: rgb(255, 0, 136);
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 0, 43);
+    font-weight: 400;
+}
+
+.card-title {
+    font-family: Montserrat;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.sidebar {
+    background-color: rgba(255, 216, 237, 0.859);
+    border-radius: 15px;
+}
+
+.sidebar-text {
+    background-color: rgba(255, 255, 255, 0.576);
+    margin-top: 1em;
+    border-radius: 15px;
+
+}
+
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-body .btn {
+    margin-top: auto;
+}
+
+.btn-sidebar a {
+    background-color: rgba(255, 216, 237, 0.859);
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-weight: 600;
+    padding: 0.5em;
+    border-radius: 15px;
+}
+
+.btn-sidebar a:hover {
+    background-color: rgb(255, 0, 136);
+    color: rgb(255, 255, 255);
+}
+
+.row.sidebar h4 {
+    text-align: center;
+}
+
+.action-bar {
+    width: 70%;
+    margin: 0 auto;
+}
+
+@media (max-width:800px) {
+    .action-bar {
+        width: 90%;
+    }
+}
+footer {
+    margin: auto auto;
+    padding: 1.7em;
+    background-color: rgba(255, 216, 237, 0.859);
+    border-radius: 15px;
+    font-size: 1.2em;
+    text-decoration: none;
+}
